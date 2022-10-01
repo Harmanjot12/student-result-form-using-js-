@@ -1,9 +1,14 @@
-    function result(){
-  document.getElementById("marksper").value = 
-  parseFloat(document.getElementById("maths").value) + 
-  parseFloat(document.getElementById("sst").value) + 
-  parseFloat(document.getElementById("science").value) + 
-  parseFloat(document.getElementById("punjabi").value) + 
-  parseFloat(document.getElementById("english").value);
+function result(){
 
-}
+		var maths = parseFloat(document.getElementById("maths").value);
+		var sst =  parseFloat(document.getElementById("sst").value);
+		var science = parseFloat(document.getElementById("science").value);
+		var punjabi = parseFloat(document.getElementById("punjabi").value);
+		var english = parseFloat(document.getElementById("english").value);
+		
+		var total = maths + sst + science + punjabi + english;
+	
+		document.getElementById("marksper").value =  total;
+
+	}
+ 
