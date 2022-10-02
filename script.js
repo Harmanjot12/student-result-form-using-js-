@@ -1,4 +1,4 @@
-function result(){
+function myResult(){
 
 		var maths = parseFloat(document.getElementById("maths").value);
 		var sst =  parseFloat(document.getElementById("sst").value);
